@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flask Template Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/Users/tejeshbhaumik/Group6/templates/template.css" rel="stylesheet" type="text/css"/>
+
+
+  
+  </head>
+  <section>
+    <div>
+      <h1>All item list</h1>
+  
+   
+      <p> </p>
+
+
+      <ul class = "check-list">
+        <table>
+          <tr>
+              <th>Object Attributes</th>
+            </tr>
+            <tr>
+              {% for n in my_list %}
+              <td>{{n.print()}}</td>
+            </tr>
+            {% endfor %}
+          </table>
+        </ul>
+      </div>
+
+  </section>
+</html>
+
