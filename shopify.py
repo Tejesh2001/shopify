@@ -55,7 +55,7 @@ class Item:
 
 @app.route("/")
 def hello():
-  return """<h1> Welcome to my submission of the spotify backend challenge </h1>
+  return """<h1> Welcome to my submission of the shopify backend challenge </h1>
     <ul>
     Please type in the route you want:-
     <li> create = creates item </li>
