@@ -1,13 +1,16 @@
 from unittest import result
 from flask import Flask, request, render_template
 app = Flask(__name__)
-
-
-
 import uuid
 
+#To run the program, simply type <python shopify.py> or click run
 #Lets say each item has an id,
 #I am using uuid to generate unique id 
+#I have a class for warehouse and item
+#Each of the routes descriptions have been given in the "/" route
+#My items have limitless attributes and can be edited 
+#Items can be added/assigned or deleted to a warehouse
+
 
 
 
@@ -62,7 +65,8 @@ def hello():
     <li> edit = takes you to a form page where you can edit item </li> 
     <li> delete = deletes item </li> 
     <li> show = shows all items in inventory list</li> 
-    <li> warehouse = allows you to add or delete items in a warehouse. Also allows you to create a warehouse if one isn't made </li> 
+    <li> warehouse = allows you to add or delete items in a warehouse. Also allows you to create a warehouse if one isn't made 
+    (I chose the second additional feature)</li> 
     </ul>
     
   <p> Example route for replit: https://shopify.tejeshbhaumik2.repl.co/create </p>
