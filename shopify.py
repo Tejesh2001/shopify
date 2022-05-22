@@ -64,6 +64,8 @@ def hello():
     <li> show = shows all items in inventory list</li> 
     <li> warehouse = allows you to add or delete items in a warehouse. Also allows you to create a warehouse if one isn't made </li> 
     </ul>
+    
+  <p> Example route for replit: https://shopify.tejeshbhaumik2.repl.co/create </p>
   """
 
 @app.route("/create")
